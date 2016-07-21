@@ -20,11 +20,11 @@ Coursera Data Cleaning Assignment from Week 4
   * test_subject - the person or subject partcipating in the test measurements.
   * train_data - all the 561 feature measurements for the training data set.
   * train_label - the activity label for each observation e.g. sitting,standing etc. for people participating in the training data collection.
-  * train_subject - the person or subject partcipating in the test measurements.
+  * train_subject - the person or subject partcipating in the training measurements.
   * features - contains the names of all 561 features that are measured.
   * activities - contains the labels for the 6 activities that the participants were asked to do e.g. sitting, standing, walking etc.
 2. The test and training data is then merged by binding the rows of the measurements, activity labels and subjects separately.
-3. The names are added to the merged measurements from the variable called "features".
+3. The names of the variables are added to the merged measurements from the "features" data.
 4. Next the columns, that are not mean or standard deviation measurements, are removed from the merged measurements.
 5. The merged subject and activity data is then added to the merged measurement data as columns to form the complete data set.
 6. A data table is created with the complete data for the final step which requires calculating the mean for each measurement by subject and activity. This is achieved by subsetting the data table and using the lapply function.
