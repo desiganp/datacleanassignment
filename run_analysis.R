@@ -50,4 +50,4 @@ table_complete_data <- data.table(complete_data)
 mean_table_complete_data <- table_complete_data[, lapply(.SD, mean), by=c("subject", "activity")]
 
 ## save this data set to a file
-write.table(mean_table_complete_data, "tidy_data.txt")
+write.table(mean_table_complete_data, "tidy_data.txt", row.names = FALSE)
