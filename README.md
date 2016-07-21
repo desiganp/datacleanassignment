@@ -2,9 +2,9 @@
 Coursera Data Cleaning Assignment from Week 4
 
 ## Submitted files
-* run_analysis.R - the R analysis file that produces the tidy data in the required format.
 * README.md - file that explains how the R script works.
 * CodeBook.md - indicates all the variables and summaries calculated.
+* run_analysis.R - the R analysis script that produces the tidy data in the required format.
 * tidy_data.txt - the output of running "run_analysis.R" (the tidy data in the required format). This file can be read using read.table("tidy_data.txt").
 
 ## Installation Instructions
