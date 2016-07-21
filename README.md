@@ -1,5 +1,11 @@
 # Getting and Cleaning Data - Assignment
-Coursera Data Cleaning Assignment from Week4
+Coursera Data Cleaning Assignment from Week 4
+
+## Submitted files
+* run_analysis.R - the R analysis file that produces the tidy data in the required format.
+* README.md - file that explains how the R script works.
+* CodeBook.md - indicates all the variables and summaries calculated.
+* tidy_data.txt - the output of running "run_analysis.R" (the tidy data in the required format). This file can be read using read.table("tidy_data.txt").
 
 ## Installation Instructions
 1. Download the dataset (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and unzip to your working directory.
@@ -21,9 +27,3 @@ Coursera Data Cleaning Assignment from Week4
 5. The merged subject and activity data is then added to the merged measurement data as columns to form the complete data set.
 6. A data table is created with the complete data for the final step which requires calculating the mean for each measurement by subject and activity. This is achieved by subsetting the data table and using the lapply function.
 7. Finally the table of average values as per the required tidy format is outputted to a text file called "tidy_data.txt"
- 
-## Submitted files
-* run_analysis.R - the R analysis file that produces the tidy data in the required format.
-* README.md - file that explains how the R script works.
-* CodeBook.md - indicates all the variables and summaries calculated.
-* tidy_data.txt - the output of running "run_analysis.R" (the tidy data in the required format)
