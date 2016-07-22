@@ -9,9 +9,13 @@ Coursera Data Cleaning Assignment from Week 4
 
 ## Installation Instructions
 1. Download the dataset (https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip) and unzip to your working directory.
-2. Copy the file run_analysis.R to the working directory.
-3. Type source("run_analysis.R") to execute the code.
-4. Verify that the file "tidy_data.txt" has been created in your working directory.
+2. Copy the file run_analysis.R to the working directory. NOTE: this script requires the package "data.table" to be installed in R.
+3. The working directory should now contain the following:
+   * the folder "UCI HAR Dataset"
+   * the file "run_analysis.R"
+4. Type source("run_analysis.R") to execute the code.
+5. Verify that the file "tidy_data.txt" has been created in your working directory.
+
 
 ## Explanation of run_analysis.R
 1. The data is first read in using read.table. Training and test data are read in separately into the following R tables:
